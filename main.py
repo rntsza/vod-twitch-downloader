@@ -24,7 +24,7 @@ if __name__ == "__main__":
     
     #region Configurações de qualidade e threads
     quality = input("Escolha a qualidade (ex: 720p, 480p, best): ") or "best"
-    threads = input("Número de threads simultâneas (padrão 4, porém sinta-se livre para teste 8 ou 16): ")
+    threads = input("Número de threads simultâneas (padrão 4, porém sinta-se livre para testar 8 ou 16): ")
     
     threads = int(threads) if threads.isdigit() else 4
 
